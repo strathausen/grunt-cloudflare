@@ -1,0 +1,30 @@
+{
+  "name": "grunt-cloudflare",
+  "version": "0.0.1",
+  "description": "Purge CloudFlare cache for new deployments",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:strathausen/grunt-cloudflare.git"
+  },
+  "keywords": [
+    "grunt",
+    "cache",
+    "cloudflare",
+    "cdn"
+  ],
+  "author": "Johann Philipp Strathausen <philipp@stratha.us>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strathausen/grunt-cloudflare/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "dependencies": {
+    "request": "~2.27.0"
+  }
+}
