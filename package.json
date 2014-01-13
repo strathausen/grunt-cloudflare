@@ -1,30 +1,44 @@
 {
   "name": "grunt-cloudflare",
-  "version": "0.0.1",
-  "description": "Purge CloudFlare cache for new deployments",
-  "main": "index.js",
+  "description": "Purge the CloudFlare Cache",
+  "version": "0.0.2",
+  "homepage": "https://github.com/strathausen/grunt-cloudflare",
+  "author": {
+    "name": "Johann Philipp Strathausen",
+    "email": "strathausen@gmail.com",
+    "url": "http://stratha.us"
+  },
   "repository": {
     "type": "git",
-    "url": "git@github.com:strathausen/grunt-cloudflare.git"
+    "url": "git://github.com/strathausen/grunt-cloudflare.git"
   },
-  "keywords": [
-    "grunt",
-    "cache",
-    "cloudflare",
-    "cdn"
-  ],
-  "author": "Johann Philipp Strathausen <philipp@stratha.us>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/strathausen/grunt-cloudflare/issues"
   },
-  "devDependencies": {
-    "grunt": "~0.4.1"
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/strathausen/grunt-cloudflare/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
   },
-  "peerDependencies": {
-    "grunt": "~0.4.1"
+  "scripts": {
   },
   "dependencies": {
     "request": "~2.27.0"
-  }
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "cloudflare",
+    "grunt",
+    "cache",
+    "cdn"
+  ]
 }
