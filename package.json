@@ -24,10 +24,9 @@
   "engines": {
     "node": ">= 0.8.0"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
-    "request": "~2.27.0"
+    "request": "~2.68.0"
   },
   "devDependencies": {
     "grunt": "~0.4.2"
